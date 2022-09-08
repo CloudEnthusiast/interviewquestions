@@ -3,6 +3,14 @@
 
 # Testing for the presence of a number in a set is fast in Python.
 
+# ex 1:
+# A = [0, -1, 4, 5]
+# output is 1
+
+# ex 2:
+# A = [3, 1, -1, -22.4, 3, 5]
+# outpu is 2
+
 def minpositive(a):
   A = set(a)
   ans = 1
